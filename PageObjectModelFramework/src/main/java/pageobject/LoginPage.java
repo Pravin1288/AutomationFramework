@@ -10,7 +10,7 @@ public class LoginPage extends Helper {
 	public static final String PasswordBox = "pass";
 	public static final String SignIn ="//button[@name='login']";
 	
-	
+	//****************************
 	
 	WebElement elements ;
 
