@@ -1,70 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-07T16:39:12 BST" name="Suite" finished-at="2024-06-07T16:40:00 BST" duration-ms="48146">
+  <suite started-at="2024-10-20T20:22:30 BST" name="Suite" finished-at="2024-10-20T20:23:08 BST" duration-ms="38120">
     <groups>
     </groups>
-    <test started-at="2024-06-07T16:39:12 BST" name="Test" finished-at="2024-06-07T16:40:00 BST" duration-ms="48146">
+    <test started-at="2024-10-20T20:22:30 BST" name="Test" finished-at="2024-10-20T20:23:08 BST" duration-ms="38120">
       <class name="Regression.LoginTest">
-        <test-method is-config="true" signature="Initalization()[pri:0, instance:Regression.LoginTest@368247b9]" started-at="2024-06-07T16:39:12 BST" name="Initalization" finished-at="2024-06-07T16:39:23 BST" duration-ms="10558" status="PASS">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:Regression.LoginTest@4be29ed9]" started-at="2024-10-20T20:22:30 BST" name="Initalization" finished-at="2024-10-20T20:22:44 BST" duration-ms="14374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initalization -->
-        <test-method signature="ValidateWithCorrectUN_PW()[pri:0, instance:Regression.LoginTest@368247b9]" started-at="2024-06-07T16:39:23 BST" name="ValidateWithCorrectUN_PW" finished-at="2024-06-07T16:39:59 BST" duration-ms="36746" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: email (tried for 30 second(s) with 6000 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: email (tried for 30 second(s) with 6000 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at utility.Helper.getElementId(Helper.java:39)
-at pageobject.LoginPage.UserName(LoginPage.java:25)
-at process.LoginProcess.LoginWithValidCredential(LoginProcess.java:30)
-at Regression.LoginTest.ValidateWithCorrectUN_PW(LoginTest.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="ValidateWithCorrectUN_PW()[pri:0, instance:Regression.LoginTest@4be29ed9]" started-at="2024-10-20T20:22:44 BST" name="ValidateWithCorrectUN_PW" finished-at="2024-10-20T20:23:07 BST" duration-ms="23128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateWithCorrectUN_PW -->
-        <test-method is-config="true" signature="CleanuP()[pri:0, instance:Regression.LoginTest@368247b9]" started-at="2024-06-07T16:39:59 BST" name="CleanuP" finished-at="2024-06-07T16:40:00 BST" duration-ms="713" status="PASS">
+        <test-method is-config="true" signature="CleanuP()[pri:0, instance:Regression.LoginTest@4be29ed9]" started-at="2024-10-20T20:23:07 BST" name="CleanuP" finished-at="2024-10-20T20:23:08 BST" duration-ms="513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CleanuP -->
